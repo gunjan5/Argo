@@ -20,8 +20,10 @@
 ## 4/13 Thursday:
 
 ### Discussion:
--
--
+- Explain the hypothesis
+- Defend the hypothesis
+
 ### Tasks:
--
--
+- add motivation (specific numbers, boot up time)
+- intent (new doc for the final report)
+- Add `syscall` to the project
