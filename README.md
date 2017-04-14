@@ -5,6 +5,11 @@
 
 - See `/doc/README.md` for the running status of this project.
 
+### The name:
+- No, it's not the Ben Affleck movie. It's from The Argo - Jason and the Argonauts
+
+![Argo](/doc/img/json-and-the-argonauts.jpg "Argo")
+
 ### Repo structure:
 ```
 ├── LICENSE
@@ -17,8 +22,3 @@
 └── doc
     └── README.md
 ```
-
-### The name:
-- No, it's not the Ben Affleck movie. It's from The Argo - Jason and the Argonauts
-
-![Argo](/doc/img/json-and-the-argonauts.jpg "Argo")
