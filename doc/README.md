@@ -24,6 +24,15 @@
 - Defend the hypothesis
 
 ### Tasks:
-- add motivation (specific numbers, boot up time)
+- add "motivation" (specific numbers, boot up time)
 - intent (new doc for the final report)
 - Add `syscall` to the project
+
+### Work:
+- added a diagram, motivation, and intent section draft
+- method:
+  - run a basic compiled program directly on the OS
+  - now run it inside a docker container and measure the startup + code run time
+  - now run it inside the container but measure startup + code run + tear-down time
+  - now just "start" an already created container instance (real startup time + code run time)
+  // need to figure out the details for unikernel
