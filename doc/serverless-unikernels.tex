@@ -1,0 +1,76 @@
+%$Id:$
+\documentclass[10pt]{article}
+\usepackage{times}
+\usepackage{epsfig,verbatim}
+\usepackage{cite,mathptm}
+
+\begin{document}
+
+\title{Serverless architecture with Unikernels}
+
+\author{ 
+Gunjan Patel\\
+{\it gunjanpatel.v@gmail.com}
+}
+
+\maketitle
+
+\begin{abstract}
+{\it
+\input{abstract}
+
+Not {\bf in} the abstract file!!!!!
+
+}
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+This is \S\ref{sec:intro}.
+
+
+\noindent In-line math mode: $y = x^{\sqrt{2^{x+y}}}_{\phi \Phi}$.
+
+An equation array:
+\begin{eqnarray}
+x & = & \sqrt{y} \\
+  & = & z^{y+d_{(i+j)}} \nonumber \\
+  & = & 12
+\end{eqnarray}
+
+If using {\em this} template, please rename ``student'' in the file names
+to your login name in the cs.pitt.edu domain. That'll make it easier to manage
+multiple electronic submissions.
+To build this file do the following:
+\begin{verbatim}
+$ make pdf
+\end{verbatim}
+
+
+\section{Related Work}
+\label{sec:related}
+
+
+Remember to cite papers on related work, but also remember
+to cite papers that describe traces you use ({\it e.g.} 
+Drew Roselli's technical report~\cite{roselli98}, when using 
+the Berkeley traces). For your first use of this template ... just
+a single section is sufficient, don't worry about paper structure yet.
+
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+%A comment in latex is preceded with a percentage sign
+
+%The following two lines specify the bibliography file(s) used
+% ... in this case student-doc.bib, and the style of the bibliography
+% ... in this case ieee.bst
+
+\bibliography{student-doc}
+\bibliographystyle{ieee}
+
+
+\end{document}
