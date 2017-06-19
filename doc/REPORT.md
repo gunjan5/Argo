@@ -1,5 +1,5 @@
 
-# This is a draft report. See [UnikernelsforServerlessArchitecture.pdf](doc/UnikernelsforServerlessArchitecture.pdf) for the full report.
+# This is a draft report. See [UnikernelsforServerlessArchitecture.pdf](UnikernelsforServerlessArchitecture.pdf) for the full report.
 
 ## Motivation:
 Motivation for doing this research is to compare boot up time performance of containers vs. unikernels.
